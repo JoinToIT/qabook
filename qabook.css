@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.card a {
+  text-decoration: none;
+  color: #333;
+}
+
+.card a:hover {
+  color: #666;
+}
+
+.nav a {
+  color: #ccc;
+}
+
+.nav a:hover {
+  color: #999;
+}
+
+.anchor {
+  border: none;
+  display: block;
+  height: 50px;
+  margin-top: -50px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 60px 0 0;
+  box-shadow: 5px 1px 10px 1px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-sticky {
+  height: calc(100vh - 60px);
+  padding-top: .5rem;
+  overflow-y: auto;
+}
+
+/* @supports ((position: -webkit-sticky) or (position: sticky)) {
+.sidebar-sticky {
+position: -webkit-sticky;
+position: sticky;
+}
+} */
+
+body {
+  background-color: #f2f2f2;
+}
+
+.content-card {
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.card {
+  margin: 20px 0 20px 0;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0,.05);
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.card-header {
+  background-color: inherit;
+  font-size: 1.5em;
+}
+
+table ul {
+  padding-left: 15px;
+}
+
+a.link_in_text {
+  color: #161ef7;
+  text-decoration: none;
+}
+
+a.link_in_text:hover {
+  text-decoration: underline;
+  color: #020bd6;
+}
+
+a.link_in_text:visited {
+  color: #5f04d6;
+  text-decoration: none;
+}

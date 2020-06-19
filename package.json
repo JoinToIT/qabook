@@ -1,0 +1,28 @@
+{
+  "name": "pmbook",
+  "version": "1.1.0",
+  "description": "pmbook for PMs of Join.To.IT lLC",
+  "main": "index.html",
+  "scripts": {
+    "test": "?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoinToIt/pmbook.git"
+  },
+  "keywords": [
+    "pm"
+  ],
+  "author": "Vlad Markuts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoinToIt/pmbook/issues"
+  },
+  "homepage": "https://github.com/JoinToIt/pmbook#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  }
+}
