@@ -95,3 +95,10 @@ a.link_in_text:visited {
   color: #5f04d6;
   text-decoration: none;
 }
+
+.title{
+  padding-left: 30px;
+  padding-top: 40px;
+  font-size: 20px;
+
+}
